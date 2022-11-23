@@ -1,0 +1,108 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  margin: auto ;
+}
+
+
+.flex-container > div {
+   margin: 40px;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   align-self: center;
+   
+   
+ }
+
+
+  .text-zone {
+    width: 36%;
+    font-size: 16px;
+    max-width: 650px;
+    padding: 20px;
+    min-width: 400px;
+
+  }
+
+  .photo {
+    width: 25%;
+    min-width: 300px;
+    padding:1px;
+  }
+
+  .resume{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  h1 {
+    color: black;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+  }
+
+  h2 {
+    color: black;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+
+
+
+@media screen and (max-width: 950px) {
+  .flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 5%;
+  
+  }
+   
+    .text-zone {
+      padding: 18%;
+      padding-top: 1px;
+      min-width:100%;
+
+    }
+  
+    .photo {
+      min-width: 70%;
+      
+    
+    }
+  
+    h1 {
+      color: black;
+      font-size: 7vw;
+      line-height: 8vw;
+      font-family: 'Coolvetica';
+    }
+  
+    h2 {
+      color: black;
+      margin-top: 10px;
+      font-size: 3vw;
+      font-family: sans-serif;
+
+    }
+  
+  
+  
+  .resume{
+    font-size: 2vw;
+    margin-top: 1px;
+    font-weight: bold;
+  }
+}
+ 

@@ -1,0 +1,178 @@
+.about{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    padding-top: 5%;
+    background-color: rgb(13, 14, 15);
+    position: relative;
+   
+}
+
+.about_container{
+    display: flex;
+    gap: -50%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(13, 14, 15);
+ 
+}
+
+.skills{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(13, 14, 15);
+    font-size: 2vw;
+    margin-bottom: 25px;
+}
+
+
+.about_container > div{
+    margin: 10px;
+    width: 40%;
+      
+}
+
+.bio > h1{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+
+.bio{
+    color: white;
+    width: 30%;
+    text-align: justify;
+   
+}
+
+.about-photo{
+    max-width: 40%;
+    float: left;
+    margin-left: 18%;
+}
+
+.skill_container{
+    width: 100%;
+    margin-top: 2%;
+    height: 30vh;
+    background-color:rgb(13, 14, 15);
+}
+
+
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(13, 14, 15);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.skill > div {
+    background-color: rgb(13, 14, 15);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .card{
+    background-color: rgb(13, 14, 15);
+    margin: 7%;
+    
+  }
+
+
+.html{
+    max-width: 40%;
+    margin: auto;
+    
+}
+
+
+@media screen and (max-width: 850px) {
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-top: 10%;
+        height: auto;
+
+    }
+    
+    
+    
+    .bio > h1{
+    margin-top: 6%;
+    margin-bottom: -3%;
+    
+}
+
+.about_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-photo{
+        max-width: 80%;
+        float: none;
+        margin-left: 0%;
+    }
+    
+
+    .about_container > div{
+        margin: 0%;
+        width: 80%;
+          
+    }
+
+    .skill{
+        
+        width: 100%;
+        margin-top: 1%;
+        padding: 3%;
+        padding-right: 11%;
+        padding-left: 11%;
+       
+    }
+    
+    .skill > div {
+
+        min-width: 50%;
+        font-size: 300px;
+      }
+      
+      .bio{
+        font-size: 2vw;
+}
+
+.html{
+    min-width: 5%;
+}
+
+
+.title{
+    font-size: 1.15vw;
+}
+
+.skills{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+       
+}
+  
+
