@@ -1,7 +1,6 @@
-import { useState } from 'react';
+import React from 'react';
 import './index.scss';
 import { FaGithub,FaLinkedin, FaCodepen} from 'react-icons/fa';
-import AnimatedLetters from '../AnimatedLetters';
 
 
 function Footer() {
