@@ -7,13 +7,15 @@ import AnimatedLetters from '../AnimatedLetters';
 
 const Contact = () => {
     const [letterClass] = useState('text-animate');  
+ 
 
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_fo3mo3g', 'template_gxcgd0f', e.target, 'YQc612DnAOf3F3NAR')
+      emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_ID)
         .then((result) => {
             console.log(result.text);
+            alert("Message has been sent. You will get contacted within 24 hours. Thank you");
         }, (error) => {
             console.log(error.text);
         });

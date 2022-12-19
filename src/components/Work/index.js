@@ -1,5 +1,4 @@
 import './index.scss';
-import Santosh from '../../assets/images/santosh.jpg';
 import Youtube from '../../assets/images/youtube.png';
 import Cart from '../../assets/images/cart.png';
 import todo from '../../assets/images/todo.png';
